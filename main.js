@@ -17,8 +17,6 @@ tabButtons.forEach((tabButton, index) => {
 // tab slider 1
 
 const swiper = new Swiper(".swiper-home-tab", {
-  slidesPerView: 4,
-  spaceBetween: 10,
   loop: true,
 
   pagination: {
@@ -29,6 +27,9 @@ const swiper = new Swiper(".swiper-home-tab", {
     300: {
       slidesPerView: 2,
       spaceBetween: 10,
+      grid: {
+        rows: 2,
+      },
     },
     979: {
       slidesPerView: 3,

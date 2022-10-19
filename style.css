@@ -198,10 +198,9 @@ body {
     padding: 0;
   }
   .swiper-home-tab-style .swiper-wrapper {
-    /* display: grid;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    grid-auto-flow: column; */
-    flex-direction: unset !important;
+    grid-auto-flow: column;
   }
 }
